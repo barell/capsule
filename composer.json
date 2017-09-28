@@ -1,0 +1,18 @@
+{
+    "name": "barell/capsule",
+    "description": "Automated scenario recorder for distributed systems",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bartosz Tomczak",
+            "email": "bosslog@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Capsule\\": "src/",
+            "CapsuleTests\\": "tests"
+        }
+    }
+}
